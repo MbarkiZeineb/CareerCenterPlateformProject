@@ -1,5 +1,5 @@
 # CareerCenterPlateformProject
-# 1  Introduction
+1  Introduction
 
 <a name="_page4_x70.87_y70.87"></a>In today’s data-driven world, data science has become increasingly important for organizations looking to gain a competitive edge and make data-driven decisions.
 
@@ -11,8 +11,8 @@ For this data science project, we followed the IBM master plan methodology, whic
 
 The IBM master plan methodology comprises the following phases :
 
-1. **Business Understanding :** In this phase, we identify the business objectives and the problem statement that the project aimed to address.
-1. **Data Understanding :** In this phase, we collect and analyze the data to gain a deeper understanding of its structure, quality, and relevance to the project.
+1. Business Understanding : In this phase, we identify the business objectives and the problem statement that the project aimed to address.
+1. Data Understanding : In this phase, we collect and analyze the data to gain a deeper understanding of its structure, quality, and relevance to the project.
 1. Data Preparation : In this phase, we clean and transform the data to ensure its quality and suitability for analysis
 1. Modeling : In this phase, we apply statistical and machine learning techniques to the data to develop models that could predict or explain the target variable.
 1. Evaluation : In this phase, we evaluated the results of the analysis and assessed the accuracy and usefulness of the models
@@ -28,7 +28,7 @@ The career center seeks to fulfill this mission through the following objectives
 
 - Assists students in acquiring information, knowledge and competencies that enhance individual career development, academic success and employability .
 - Provides services and resources that support students and graduates.
-- Develop relationships with employers for the purpose of exploring the possibilities of internships and professional employment opportunities.![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+- Develop relationships with employers for the purpose of exploring the possibilities of internships and professional employment opportunities.![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 The employability pole can be used by students and graduates to research the various career alternatives and choose the one that best fits their interests and skill set.
 
@@ -52,7 +52,7 @@ In this phase we need to identify the Data needed for the project.
 
 1. Job Offers : A job offers data collection will include several employment offers which will subsequently be suggested to users.
 1. Internship Offers : A internship offers data set is also needed for this project and it will contain all the information related to an internship.
-1. Students’ resumes : To have a well functional recommendation system, a data set for the student’s resumes will also be needed .![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+1. Students’ resumes : To have a well functional recommendation system, a data set for the student’s resumes will also be needed .![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 5  Data<a name="_page6_x70.87_y70.87"></a> Collection
 
 In this step we will answer the ”Where is the data coming from and how will we get it? ” question.
@@ -63,13 +63,13 @@ For the internship offers, we had in our possession PFE books provided by differ
 
 To collect the students’s resumes and alumni looking for jobs offers, first we assembled the ones published on the Esprit Connect web site, then decided to also collect more from Linkedin using the web scraping method .
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.008.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.008.png)
 
 <a name="_page6_x70.87_y251.21"></a>Figure 1 – The process of the data collection
 
 6  Data<a name="_page6_x70.87_y467.83"></a> Understanding
 
-The data understanding process is a crucial step in data science project that involves exploring and describing the data before proceeding with modeling and analysis.![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+The data understanding process is a crucial step in data science project that involves exploring and describing the data before proceeding with modeling and analysis.![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 <a name="_page7_x70.87_y70.87"></a>6.1 Data Visualization
 
@@ -85,19 +85,19 @@ The final data collected contains the following columns :
 - Workplace Type
 - Job Type
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.009.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.009.png)
 
-<a name="_page7_x70.87_y247.35"></a>Figure 2 – Job Offers Data Frame![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page7_x70.87_y247.35"></a>Figure 2 – Job Offers Data Frame![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 Here we present some visualisation that we did in order to more understand our data, the chart below shows the top 10 job titles :
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.010.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.010.png)
 
 <a name="_page8_x70.87_y101.42"></a>Figure 3 – Top 10 Jobs Then this pie char below relative to the top locations of the job offers :
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.011.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.011.png)
 
-<a name="_page8_x70.87_y383.75"></a>Figure 4 – Top 10 Locations![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page8_x70.87_y383.75"></a>Figure 4 – Top 10 Locations![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 2. Internship<a name="_page9_x70.87_y70.87"></a> Offers
 
@@ -114,14 +114,14 @@ The final data set created contains the following columns :
 
 The chart below represent the Geographical Distribution of Internship Offers
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.012.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.012.png)
 
 <a name="_page9_x70.87_y254.72"></a>Figure 5 – Geographical Distribution
 
 7  Data<a name="_page9_x70.87_y572.85"></a> preparation
 1. Data<a name="_page9_x70.87_y613.46"></a> cleaning
 
-Data cleaning is the process of correcting or removing corrupt, incorrect, or unnecessary data from the data frame .![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+Data cleaning is the process of correcting or removing corrupt, incorrect, or unnecessary data from the data frame .![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 1. Missing<a name="_page10_x70.87_y70.87"></a> values and duplication
 
@@ -153,7 +153,7 @@ Data transformation is the process of changing the format, structure, or values 
 
 2. Skills<a name="_page10_x70.87_y538.17"></a> extraction
 
-We extracted The skills from the job description by using a JSON File that contains a list of those skills. The function reads in the patterns from the file and adds them to the Spacy pipeline after the parser and before the named entity recognizer (NER).![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+We extracted The skills from the job description by using a JSON File that contains a list of those skills. The function reads in the patterns from the file and adds them to the Spacy pipeline after the parser and before the named entity recognizer (NER).![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 8  Modeling
 1. <a name="_page11_x70.87_y70.87"></a>Profiling
@@ -162,23 +162,23 @@ We extracted The skills from the job description by using a JSON File that conta
 
 The figure below explain the schema of the clustering applied to the students and all the profiles that have been detected.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.013.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.013.png)
 
 <a name="_page11_x70.87_y223.44"></a>Figure 6 – Profiles clustering
 
 We used KMeans clustering algorithm to cluster the job titles and the the Elbow method to find the optimal number of clusters , and as a result we had a data frame with a new feature which is the FIELD.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.014.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.014.png)
 
-<a name="_page11_x70.87_y530.68"></a>Figure 7 – Dataset after the clustering![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page11_x70.87_y530.68"></a>Figure 7 – Dataset after the clustering![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 After the clustering, we can have as shows in the chart below a representation of the jobs offers for each
 
 filed.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.015.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.015.png)
 
-<a name="_page12_x70.87_y105.46"></a>Figure 8 – Jobs by fields![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page12_x70.87_y105.46"></a>Figure 8 – Jobs by fields![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 2. Recommendation
 
@@ -188,7 +188,7 @@ filed.
 
 In order to build a collaborative-based job recommendation system , a dataset of users who have recommended jobs will be needed.
 
-This data will be used to generate recommendations for users based on their preferences and needs. Computing the Cosine Similarity using countvector![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.016.png)
+This data will be used to generate recommendations for users based on their preferences and needs. Computing the Cosine Similarity using countvector![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.016.png)
 
 1. The CountVectorizer is used to create a count vector representation of users. This will convert each user Text description into a vector where each element corresponds to the count of a specific word in the Text .
 1. Compute the cosine similarity between each pair of documents using the cosine similarity. This will create a similarity matrix where the (i,j)th element is the cosine similarity between user text i and job offers j.
@@ -201,9 +201,9 @@ The cosine similarity score is a measure of the similarity between two vectors a
 
 Once the similarity scores are computed, the function can return the top profile that are most similar to the new user’s profile. This can be useful for making personalized recommendations to the new user based on the profiles of other users in the database.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.017.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.017.png)
 
-<a name="_page13_x70.87_y528.73"></a>Figure 9 – Profile recommendation![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page13_x70.87_y528.73"></a>Figure 9 – Profile recommendation![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 3. Job<a name="_page14_x70.87_y70.87"></a> Recommendation System
 
@@ -211,7 +211,7 @@ We established a collaborative filtering recommender system, this technique reco
 
 It uses historical data on candidate behavior, such as job applications and job offers, to compute the similarity between candidate profiles and recommend jobs that are similar to the jobs that other candidates with similar profiles have applied to or accepted.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.018.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.018.png)
 
 <a name="_page14_x70.87_y174.48"></a>Figure 10 – collaborative based filtering recommendation system
 
@@ -219,9 +219,9 @@ It uses historical data on candidate behavior, such as job applications and job 
 
 Here the goal is to recommend jobs to candidates based on the similarity between job descriptions and candidate profiles.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.019.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.019.png)
 
-<a name="_page14_x70.87_y495.28"></a>Figure 11 – content based recommendation system![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page14_x70.87_y495.28"></a>Figure 11 – content based recommendation system![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 5. Hybrid<a name="_page15_x70.87_y70.87"></a> job recommendation system
 
@@ -229,7 +229,7 @@ Hybrid job recommendation systems use a combination of content-based filtering, 
 
 By combining these approaches, a hybrid job recommendation system can provide more accurate and personalized job recommendations than a single approach alone. It can also overcome the cold start problem, where there is not enough data available for a new user, by using knowledge-based recommendations until enough data is available for collaborative filtering.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.020.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.020.png)
 
 <a name="_page15_x70.87_y187.15"></a>Figure 12 – Hybrid recommendation system
 
@@ -244,7 +244,7 @@ To establish that :
 
 After identifying the missing relevant skills using TF-IDF, we recommend a list of online courses from popular platforms such as Udemy and Coursera to each user.
 
-To determine the best courses to suggest, we used a similarity score based on the skills required by the courses and the skills that the user needs to acquire.![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+To determine the best courses to suggest, we used a similarity score based on the skills required by the courses and the skills that the user needs to acquire.![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 3. Reporting
 
@@ -252,7 +252,7 @@ To determine the best courses to suggest, we used a similarity score based on th
 
 For this process we used Power BI which is a popular tool for reporting as it allows users to create interactive and dynamic reports that can be shared and accessed from anywhere. Power BI provides a wide range of visualizations and features that can be used to create customized and visually appealing reports.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.021.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.021.png)
 
 <a name="_page16_x70.87_y174.87"></a>Figure 13 – Reporting process
 
@@ -266,39 +266,39 @@ Cube OLAP are used to provide a multi-dimensional view of data that enables user
 
 3. Power<a name="_page16_x70.87_y577.00"></a> Bi
 
-Finlay with Power Bi we created personalized and interactive data visualizations,the figures below shows some visualization from the dashboard created.![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+Finlay with Power Bi we created personalized and interactive data visualizations,the figures below shows some visualization from the dashboard created.![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.022.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.022.png)
 
 <a name="_page17_x70.87_y64.89"></a>Figure 14 – Dimension of the data
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.023.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.023.png)
 
-<a name="_page17_x70.87_y303.75"></a>Figure 15 – The offers Localisation![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page17_x70.87_y303.75"></a>Figure 15 – The offers Localisation![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.024.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.024.png)
 
 <a name="_page18_x70.87_y64.89"></a>Figure 16 – Most Frequent locations in the field of Data Science
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.025.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.025.png)
 
-<a name="_page18_x70.87_y303.22"></a>Figure 17 – Technologies required for Electronic and mechanical engineering![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page18_x70.87_y303.22"></a>Figure 17 – Technologies required for Electronic and mechanical engineering![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.026.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.026.png)
 
 <a name="_page19_x70.87_y64.89"></a>Figure 18 – Technologies required for artificial intelligence field
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.027.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.027.png)
 
-<a name="_page19_x70.87_y308.52"></a>Figure 19 – Technologies required for web development field![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page19_x70.87_y308.52"></a>Figure 19 – Technologies required for web development field![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.028.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.028.png)
 
 <a name="_page20_x70.87_y64.89"></a>Figure 20 – Technologies required for mobile development field
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.029.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.029.png)
 
-<a name="_page20_x70.87_y274.42"></a>Figure 21 – Most Frequent technologies![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page20_x70.87_y274.42"></a>Figure 21 – Most Frequent technologies![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 9  Evaluation
 
@@ -306,13 +306,13 @@ Finlay with Power Bi we created personalized and interactive data visualizations
 
 To establish this, we tested our recommendation system by choosing a profile from the job seekers.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.030.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.030.png)
 
 <a name="_page21_x70.87_y155.91"></a>Figure 22 – Job Seeker Test
 
 1. collaborative<a name="_page21_x70.87_y265.86"></a> filtering recommender system
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.031.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.031.png)
 
 <a name="_page21_x70.87_y303.53"></a>Figure 23 – Result of the collaborative filtering recommender system
 
@@ -324,15 +324,15 @@ seeker.
 
 The outcome of the content filtering recommendation system used for business intelligence job searcher is illustrated in the figure above.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.032.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.032.png)
 
-<a name="_page21_x70.87_y542.25"></a>Figure 24 – Result of the Content-based filtering![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page21_x70.87_y542.25"></a>Figure 24 – Result of the Content-based filtering![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 3. Hybrid<a name="_page22_x70.87_y70.87"></a> job recommendation system
 
 To enhance the precision and comprehensiveness of our job recommendations, we utilized a combination of advanced recommendation techniques, including content-based filtering, collaborative filtering, and profile- based recommendation. The final outcome of our approach is clearly presented in the figure below, which illustrates the recommended jobs based on the user’s preferences, skills, and past job experiences.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.033.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.033.png)
 
 <a name="_page22_x70.87_y154.22"></a>Figure 25 – Result of the Hybrid job recommendation system
 
@@ -340,13 +340,13 @@ To enhance the precision and comprehensiveness of our job recommendations, we ut
 
 To assist job seeker in enhancing his resume and skill sets, we suggest providing him with a list of skills that are not currently included in his profile but are popular among similar users, as illustrated in Figure 26. Additionally, we recommend a selection of pertinent online courses to help him acquire new skills and improve his employability, as shown in Figure 27.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.034.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.034.png)
 
-<a name="_page22_x70.87_y558.64"></a>Figure 26 – Result of the skill recommendation![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page22_x70.87_y558.64"></a>Figure 26 – Result of the skill recommendation![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.035.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.035.png)
 
-<a name="_page23_x70.87_y64.89"></a>Figure 27 – Result of the course recommendation![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page23_x70.87_y64.89"></a>Figure 27 – Result of the course recommendation![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 10  Deployment
 
@@ -354,15 +354,15 @@ To assist job seeker in enhancing his resume and skill sets, we suggest providin
 
 explaining the recommendation system’s workings on the application’s first welcome page, making it a user- friendly platform that is simple to use.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.036.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.036.png)
 
-<a name="_page24_x70.87_y179.26"></a>Figure 28 – Welcome page![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page24_x70.87_y179.26"></a>Figure 28 – Welcome page![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 1. Uploading<a name="_page25_x70.87_y70.87"></a> the resume
 
 The first step in using the platform, the user has to upload his resume, as shows the figure below :
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.037.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.037.png)
 
 <a name="_page25_x70.87_y116.21"></a>Figure 29 – Upload
 
@@ -370,13 +370,13 @@ The first step in using the platform, the user has to upload his resume, as show
 
 <a name="_page25_x70.87_y320.56"></a>The user will receive a list of the most pertinent internships or job offers following the submission of the resume and based on the content of the CV, whether they’re a student or a job seeker and also according to the field.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.038.jpeg)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.038.jpeg)
 
-<a name="_page25_x70.87_y399.78"></a>Figure 30 – List of jobs recommandation![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page25_x70.87_y399.78"></a>Figure 30 – List of jobs recommandation![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 The user can view additional information about each offer and decide whether or not to apply.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.039.jpeg)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.039.jpeg)
 
 <a name="_page26_x70.87_y94.72"></a>Figure 31 – Job offer detail
 
@@ -384,9 +384,9 @@ The user can view additional information about each offer and decide whether or 
 
 <a name="_page26_x70.87_y374.51"></a>Finally the platform includes a reporting dashboard as was described in the previous section.
 
-![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.040.png)
+![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.040.png)
 
-<a name="_page26_x70.87_y430.32"></a>Figure 32 – Reporting dashborad![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+<a name="_page26_x70.87_y430.32"></a>Figure 32 – Reporting dashborad![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
 
 11  Conclusion
 
@@ -394,4 +394,4 @@ The user can view additional information about each offer and decide whether or 
 
 By analyzing data and using machine learning algorithms, a recommendation system can provide perso- nalized suggestions to users, increasing user engagement and satisfaction.
 
-Additionally, the reporting aspect of the project can provide valuable insights and information for decision- making and improving business operations.![](Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
+Additionally, the reporting aspect of the project can provide valuable insights and information for decision- making and improving business operations.![](images/Aspose.Words.21819dab-c951-48f9-b7bb-528a4adf4f33.007.png)
