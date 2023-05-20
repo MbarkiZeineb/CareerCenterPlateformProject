@@ -1,0 +1,318 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Career Center Platform</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="{% static 'css/responsive.css' %}" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="{% url 'index_cv' %}">
+            <span>
+              Career Center Platform
+            </span>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- slider section -->
+    <section class=" slider_section position-relative">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slider_item-box layout_padding2">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <div>
+                        <img src="{% static 'images/main.png'%}" alt="" class="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <div>
+                        <h1>
+                          Career Center <br>  <span> Platform  </span>
+                
+                         
+                        </h1>
+                        <p>
+                          Discover Your Path to Success with Our Cutting-Edge Career Center Platform!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="slider_item-box layout_padding2">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <div>
+                        <img src="{% static 'images/main.png' %}" alt="" class="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <div>
+                        <h1>
+                          Career Center <br>
+                          <span>
+                            Platform 
+                          </span>
+                        </h1>
+                        <p>
+                          Unleash Your Professional Potential with Our Revolutionary Career Center Platform!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="slider_item-box layout_padding2">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="img-box">
+                      <div>
+                        <img src="{% static 'images/main.png' %}" alt="" class="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="detail-box">
+                      <div>
+                        <h1>
+                          Career Center  <br>
+                          <span>
+                            Platform  </span>
+                        </h1>
+                        <p>
+                          Empower Your Future with Our Career Center Platform!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="container">
+        <div class="slider_nav-box">
+          <div class="btn-box">
+            <hr>
+          </div>
+          <div class="custom_carousel-control">
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+  <div class="bg">
+    <section class="work_section layout_padding">
+      <div class="container">
+        <div class="custom_heading-container">
+          <h3 class=" ">
+            HOW IT WORKS
+          </h3>
+        </div>
+      </div>
+      <div class="work_container ">
+        <div class="box b-1">
+          <div class="img-box">
+            <img src="{% static 'images/w-1.png' %}" alt="">
+          </div>
+          <div class="name">
+            <h6>
+              Upload your resume
+            </h6>
+          </div>
+        </div>
+        <div class="box b-2">
+          <div class="img-box ">
+            <img src="{% static 'images/w-2.png' %}" alt="">
+          </div>
+          <div class="name">
+            <h6>
+              Find the right opportunity for you.
+            </h6>
+          </div>
+        </div>
+        <div class="box b-3">
+          <div class="img-box ">
+            <img src="{% static 'images/w-3.png' %}" alt="">
+          </div>
+          <div class="name">
+            <h6>
+              Recognize  your insufficient  skills 
+            </h6>
+          </div>
+        </div>
+        <div class="box b-4">
+          <div class="img-box ">
+            <img src="{% static 'images/w-4.png' %}" alt="">
+          </div>
+          <div class="name">
+            <h6>
+              Acquire Relevant Courses for Skill Development!
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- end work section -->
+
+    <!-- contact section -->
+
+    <section class="contact_section layout_padding">
+      <div class="custom_heading-container">
+        <h3 class="">
+          Upload your resume
+        </h3>
+      </div>
+      <div class="container layout_padding2-top">
+        <div class="row">
+          <div class="col-md-6 mx-auto">
+              <div>
+                <input type="file" id="file" class="form-control mb-2"  >
+                <div class="progress-bar" id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+                <button  class="btn btn-primary float-end" type="submit" onclick="uploadFile();">Submit</button>
+
+              </div>
+              </div>
+          </div>
+          
+        </div>
+        
+
+      </div>
+
+    </section>
+
+    <!-- end contact section -->
+
+    
+    <!-- info section -->
+    <section class="info_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="info-logo">
+              <h2>
+                Career Center Platform 
+              </h2>
+              <p>
+                Discover Your Path to Success with Our Cutting-Edge Career Center Platform!
+
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="info-contact">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="discover">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+
+    <script>
+      function uploadFile() {
+          var data = new FormData();
+          data.append("file", $("input[id^='file']")[0].files[0]);
+          data.append("csrfmiddlewaretoken", "{{ csrf_token }}");
+          $.ajax({
+              method: "POST",
+              url: "/upload",
+              processData: false,
+              contentType: false,
+              mimeType: "multipart/form-data",
+              data: data,
+              success: function(res) {
+                  console.log(res)
+                  var response = JSON.parse(res);
+                  var userType = response.user_type;
+                  console.log(response);
+                  
+                  if(userType == "intern")
+                    window.location.replace('/pfe');
+                  else
+                    window.location.replace('/jobs');
+
+              }
+          })
+      }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,500 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Basic -->
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <!-- Mobile Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <!-- Site Metas -->
+      <meta name="keywords" content="" />
+      <meta name="description" content="" />
+      <meta name="author" content="" />
+      <style>
+         html,
+         body,
+         .intro {
+         height: 100%;
+         }
+
+      </style>
+      <title>Career Center Platform</title>
+      <!-- slider stylesheet -->
+      <link rel="stylesheet" type="text/css"
+         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+      <!-- bootstrap core css -->
+      <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}" />
+      <!-- fonts style -->
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="{% static 'css/style.css'%}" rel="stylesheet" />
+      <!-- responsive style -->
+      <link href="{% static 'css/responsive.css'%}" rel="stylesheet" />
+      <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+   </head>
+   <body>
+      
+      <div class="hero_area">
+         <!-- header section strats -->
+         <header class="header_section">
+            <div class="container-fluid">
+               <nav class="navbar navbar-expand-lg custom_nav-container ">
+                  <a class="navbar-brand" href="{% url 'index_cv' %}">
+                  <span>
+                  Career Center Platform
+                  </span>
+                  </a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+                     </div>
+                  </div>
+               </nav>
+            </div>
+         </header>
+         <!-- end header section -->
+         <section class="contact_section layout_padding" id="jobs" style="display: none;">
+            <div class="custom_heading-container mt-5">
+               <h3 class="pb-1 mb-5">
+                  list of PFE Recommendation
+               </h3>
+            </div>
+            <div class="container">
+               <div class="card card-margin">
+                  <div class="card-body">
+                     <div class="row search-body">
+                        <div class="col-lg-12">
+                           <div class="search-result">
+                              <div class="result-header">
+                                 <div class="row">
+                                    <div class="col-lg-6">
+                                       <div id="records"></div>
+                                    </div>
+                                 </div>
+                                 <div class="result-body">
+                                    <div class="table-responsive">
+                                       <table class="table widget-26" id="">
+                                          <tbody id="job-table-body">
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <nav class="d-flex justify-content-center">
+                              <ul class="pagination pagination-base pagination-boxed pagination-square mb-0">
+                                 
+                              </ul>
+                           </nav>
+                        </div>
+                        
+                     </div>
+                  </div>
+               </div>
+         </section>
+         <section id="course" class="mt-5 mb-3" style="display: none;">
+         <!-- end work section -->
+         <!-- contact section -->
+         <div class="custom_heading-container">
+         <h3 class="">
+         Course Recommendation
+         </h3>
+         </div>
+         <div class="popular_courses">
+          <div class="container">
+             <div class="row justify-content-center">
+                <div class="col-lg-5">
+                   <div class="main_title">
+                      <h2 class="mb-3"></h2>
+                      <p>
+                         
+                      </p>
+                   </div>
+                </div>
+             </div>
+             <div class="row">
+                <div class="col-lg-12">
+                   <div class="owl-carousel active_course owl-loaded owl-drag">
+                      <div class="owl-stage-outer">
+                         <div class="owl-stage" style="transform: translate3d(-1520px, 0px, 0px); transition: all 1.5s ease 0s; width: 3420px;">
+
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+
+          </div>
+       </div>
+         
+   
+   </div>
+   </section>
+   <div class="row pt-5">
+      <div class="col-md-2"></div>
+      <div class="col-md-8" id="cv">
+        
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+         <div class="col-md-4"></div>
+         <div class="col-md-8" id="titre_skills" style="display: none;">
+            <h3>recommended skills for you  </h3>
+         </div>
+      </div>
+   <div class="row">
+      <div class="col-md-1 mr-5"></div>
+      <div class="col-md-10">
+         <div class="button-group" id="skills">
+            
+            
+         </div>
+      </div>
+   </div>
+   </div>
+
+   <!-- end contact section -->
+   <!-- info section -->
+   <section class="info_section layout_padding" id="footer" style="display: none;">
+   <div class="container">
+   <div class="row">
+   <div class="col-md-3">
+   <div class="info-logo">
+   <h2>
+   Career Center Platform 
+   </h2>
+   <p>
+   Discover Your Path to Success with Our Cutting-Edge Career Center Platform!
+   </p>
+   </div>
+   </div>
+   <div class="col-md-3">
+   <div class="info-contact">
+   </div>
+   </div>
+   </div>
+   <div class="col-md-3">
+   <div class="discover">
+   </div>
+   </div>
+   </div>
+   </div>
+   <div class="modal fade details-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg">
+   <div class="modal-content">
+   <div class="modal-header">
+   <h4 class="modal-title" id="myLargeModalLabel">Details</h4>
+   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+   <span aria-hidden="true">×</span>
+   </button>
+   </div>
+   <div class="modal-body">
+   <div class="row">
+   <div class="col-md-5">
+   <div class="project-info-box">
+      
+   <p><b>PFE Field:</b> <span id="pfe-field"></span></p>
+   <p><b>PFE topic:</b> <span id="pfe-topic"></span></p>
+   <p class="mb-0"><b>technologies:</b> <span id="technologies"></span></p>
+   </div>
+   </div><!-- / column -->
+   <div class="col-md-7">
+   <div class="project-info-box mt-0">
+   <h5>Description</h5>
+   <p class="mb-0 text-justify" id="pfe-description"></p>
+   </div><!-- / project-info-box -->
+   <div class="project-info-box">
+   
+   <p><b>Location:</b> <span id="pfe-location"></span></p>
+   </div><!-- / project-info-box -->
+   </div><!-- / column -->
+   </div>
+   <div class="modal-footer">
+   <a href="https://www.linkedin.com/" class="btn btn-primary">Apply to this job</a>
+   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+
+   </section>
+
+      <!-- Your page content goes here -->
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-6" id="loading" style="display: block;">
+     
+        <img src="{% static 'images/loading.gif' %}"  id="loading"/>
+      </div>
+     
+   </div>
+    
+      <!-- Your other scripts and HTML elements go here -->
+    </body>
+    
+    
+   <!-- Large modal -->
+   <!-- footer section -->
+   <script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js'%}"></script>
+   <script src="
+      https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js
+      "></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ti-icons@0.1.2/css/themify-icons.css">
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script type="text/javascript" src="{% static 'js/bootstrap.js'%}"></script>
+   <script>
+      $(document).ready(function() {
+        
+          $.ajax({
+              url: "/api/pfe",
+              type: "GET",
+              success: function(data) {
+               
+               var page = 1; // current page
+            var pageSize = 5; // results per page
+
+
+            var start = (page - 1) * pageSize + 1; // start index
+            var end = Math.min(page * pageSize, data["data"].length); // end index
+            var total = data["data"].length; // total number of results
+            renderResults(start, end); // call renderResults initially to load first page 
+               
+            // Render pagination links
+            var totalPages = Math.ceil(total / pageSize); // total number of pages
+            var pagination = $('.pagination');
+
+            file =  data["filename"]
+            path = "static/pdf/" + file + ""
+            embeded_code = "<embed src='"+ path +"' type='application/pdf' width='100%'' height='600px' />"
+            $("#cv").html(embeded_code)
+            buttons_html = ""
+            counter = 20
+            if (data['skillss'].length < 20)
+               counter = data['skillss'].length -1
+            for(var i = 0; i<=counter;i++){
+                  buttons_html += '<button class="btn btn-primary float-end m-1" type="button" style="background-color: #ff4f5a!important; border:1px solid #ff4f5a">'+ data["skillss"][i] +'</button>'
+               
+                  
+            }
+            $("#skills").html(buttons_html)
+            $("#titre_skills").css("display","inline")
+
+            // Create "Previous" button
+            if (page > 1) {
+               pagination.append('<li class="page-item"><a class="page-link no-border" href="#" data-page="' + (page - 1) + '">«</a></li>');
+            } else {
+               pagination.append('<li class="page-item disabled"><span class="page-link no-border">«</span></li>');
+            }
+
+            // Create page links
+            for (var i = 1; i <= totalPages; i++) {
+               if (i == page) {
+                  pagination.append('<li class="page-item active"><a class="page-link no-border" href="#">' + i + '</a></li>');
+               } else {
+                  pagination.append('<li class="page-item"><a class="page-link no-border" href="#" data-page="' + i + '">' + i + '</a></li>');
+               }
+            }
+
+            // Create "Next" button
+            if (page < totalPages) {
+               pagination.append('<li class="page-item"><a class="page-link no-border" href="#" data-page="' + (page + 1) + '">»</a></li>');
+            } else {
+               pagination.append('<li class="page-item disabled"><span class="page-link no-border">»</span></li>');
+            }
+
+            // Add click event to page links
+            pagination.find('a').on('click', function(e) {
+               e.preventDefault();
+               var newPage = parseInt($(this).data('page'));
+               if (newPage !== page) {
+                  page = newPage;
+                  start = (page - 1) * pageSize + 1;
+                  end = Math.min(page * pageSize, data["data"].length);
+                  // Call function to render results based on start and end indexes
+                  renderResults(start, end);
+                  // Update active page link
+                  pagination.find('.active').removeClass('active');
+                  $(this).parent().addClass('active');
+                  // Update "Previous" and "Next" buttons
+                  if (page === 1) {
+                        pagination.find('li:first-child').addClass('disabled');
+                  } else {
+                        pagination.find('li:first-child').removeClass('disabled');
+                  }
+                  if (page === totalPages) {
+                        pagination.find('li:last-child').addClass('disabled');
+                  } else {
+                        pagination.find('li:last-child').removeClass('disabled');
+                  }
+               }
+
+
+               $('.job-row').click(function() {
+                    $('.details-modal').modal('show');
+                  // Get the index of the clicked row
+                  var index = $(this).data('index');
+                  
+                  // Get the associated data
+                  var pfe = data["data"][index];
+                  
+                  // Do something with the data (e.g. display it in a modal)
+                  $('#pfe-field').text(pfe.Field);
+                  $('#pfe-topic').text(pfe.Topic);
+                  $('#technologies').text(pfe.Technologies);
+                  $('#pfe-description').text(pfe.Description);
+                  $('#pfe-location').text(pfe.Location);
+                 
+      });
+            });
+           
+
+function renderResults(start, end) {
+         var html = "";
+         for (var i = start - 1; i < end; i++) {
+            html += "<tr class='job-row' data-index='" + i + "'>";
+                    html += "<td>";
+                    html += "<div class='widget-26-job-emp-img'> <img src='{% static 'images/avatar.png' %}'alt='Company'></div>";
+                    html += "</td>";
+                    html += "<td>";
+                    html += "<div class='widget-26-job-title'>";
+                    html += "<a href='#'>" + data["data"][i].Topic + "</a>";
+                    html += "<p class='m-0'><a href='#' class='employer-name'>" + data["data"][i].Company + "</a> <span class='text-muted time'>" + data["data"][i].Duration + " Mois</span></p>";
+                    html += "</div>";
+                    html += "</td>";
+                    html += "<td>";
+                    html += "<div class='widget-26-job-info'>";
+                    html += "<p class='type m-0'>" + data["data"][i].Field + "</p>";
+                    html += "<p class='text-muted m-0'>in <span class='location'>" + data["data"][i].Location + "</span></p>";
+                    html += "</div>";
+                    html += "</td>";
+                    html += "<td>";
+                    html += "<div class='widget-26-job-category bg-soft-base'> <span></span></div>";
+                    html += "</td>";
+                    html += "<td>";  
+                    html += "</td>";
+                    html += "</tr>";
+
+      
+                  }
+                  $("#job-table-body").html(html);
+                  document.getElementById("records").innerHTML = "Showing: <b>" + start + "</b>-<b>" + end + "</b> of <b>" + total + "</b> results";
+               }
+
+
+                  //Courses
+                  // Create a new element to hold the course data
+                  var htmlcourse = "";
+                 
+                  for (var i = 0; i < data["courses"].length; i++) {
+                        
+                    var course = data["courses"][i];
+              
+                    htmlcourse += '<div class="owl-item cloned" style="width: 350px; margin-right: 30px;">';
+                    htmlcourse += '<div class="single_course">';
+
+                    htmlcourse += '<div class="course_head">';
+                    htmlcourse += '<img class="img-fluid" src="{% static "images/cours.png" %}" alt="" />';
+                    htmlcourse += '</div>';
+                    htmlcourse += '<div class="course_content">';
+                   
+                    htmlcourse += '<h4 class="mb-3">';
+                    htmlcourse += '<a href="' + course.url + '"target="_blank">' + course.course_title + '</a>';
+                    htmlcourse += '</h4>';
+                    htmlcourse += '<p>' + course.level + '</p>';
+                    htmlcourse += '<div class="course_meta d-flex justify-content-lg-between align-items-lg-center flex-lg-row flex-column mt-4">';
+                    htmlcourse += '<div class="authr_meta">';
+                    htmlcourse += '<img src="" alt="" />';
+                    htmlcourse += '<span class="d-inline-block ml-2"></span>';
+                    htmlcourse += '</div>';
+                    htmlcourse += '<div class="mt-lg-0 mt-3">';
+                    htmlcourse += '<span class="meta_info mr-4">';
+                    htmlcourse += '<a href="#"> <i class="ti-user mr-2"></i></a>';
+                    htmlcourse += '</span>';
+                    htmlcourse += '<span class="meta_info">';
+                    htmlcourse += '<a href="#"> <i class="ti-heart mr-2"></i>100</a>';
+                    htmlcourse += '</span>';
+                    htmlcourse += '</div>';
+                    htmlcourse += '</div>';
+                    htmlcourse += '</div>';
+                    htmlcourse += '</div>';
+                    htmlcourse += '</div>';
+
+
+                  
+                 }      
+                 $(".owl-stage").html(htmlcourse);  
+                 active_course(); 
+
+                 $('#jobs').css('display', 'inline');                
+                 $('#course').css('display', 'inline');                
+                 $('#footer').css('display', 'inline');   
+                 $('#loading').css('display', 'none');   
+
+                 $('.job-row').click(function() {
+                    $('.details-modal').modal('show');
+                  // Get the index of the clicked row
+                  var index = $(this).data('index');
+                  
+                  // Get the associated data
+                  var pfe = data["data"][index];
+                  
+                  // Do something with the data (e.g. display it in a modal)
+                  $('#pfe-field').text(pfe.Field);
+                  $('#pfe-topic').text(pfe.Topic);
+                  $('#technologies').text(pfe.Technologies);
+                  $('#pfe-description').text(pfe.Description);
+                  $('#pfe-location').text(pfe.Location);
+
+
+      });
+                  
+                  
+              }
+          });
+      });
+   
+
+
+
+      function active_course() {
+      if ($(".active_course").length) {
+      $(".active_course").owlCarousel({
+        loop: true,
+        margin: 20,
+        items: 3,
+        nav: true,
+        autoplay: 2500,
+        smartSpeed: 1900,
+        dots: false,
+        responsiveClass: true,
+        thumbs: true,
+        thumbsPrerendered: true,
+        navText: ["<img src='{% static 'images/prev.png' %}'>", "<img src='{% static 'images/next.png' %}'>"],
+        responsive: {
+          0: {
+            items: 1,
+            margin: 0
+          },
+          991: {
+            items: 2,
+            margin: 30
+          },
+          1200: {
+            items: 3,
+            margin: 30
+          }
+        }
+      });
+      }
+      }
+      
+   </script>
+   </body>
+</html>
